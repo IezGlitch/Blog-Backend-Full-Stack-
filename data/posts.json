@@ -1,0 +1,29 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4000-8000-000000000001",
+    "title": "Getting Started with Express",
+    "content": "Express is a minimal web framework for Node.js that makes routing and middleware simple.",
+    "author": "Pratik Sharma",
+    "category": "Backend",
+    "createdAt": "2026-09-01T09:00:00.000Z",
+    "updatedAt": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "id": "a1b2c3d4-0002-4000-8000-000000000002",
+    "title": "What Makes an API RESTful?",
+    "content": "REST uses resources, HTTP verbs and status codes so clients can predict how the API behaves.",
+    "author": "Pratik Sharma",
+    "category": "Web Development",
+    "createdAt": "2026-09-05T12:30:00.000Z",
+    "updatedAt": "2026-09-05T12:30:00.000Z"
+  },
+  {
+    "id": "a1b2c3d4-0003-4000-8000-000000000003",
+    "title": "Testing APIs with Postman",
+    "content": "Postman lets you send requests to every endpoint and inspect responses without a frontend.",
+    "author": "Pratik Sharma",
+    "category": "Testing",
+    "createdAt": "2026-09-10T15:45:00.000Z",
+    "updatedAt": "2026-09-10T15:45:00.000Z"
+  }
+]

@@ -1,0 +1,40 @@
+### Base URL
+@baseUrl = http://localhost:3000
+
+### Get all posts
+GET {{baseUrl}}/posts
+
+### Search + filter + paginate
+GET {{baseUrl}}/posts?search=express&category=Backend&sort=oldest&page=1&limit=5
+
+### Create a post
+POST {{baseUrl}}/posts
+Content-Type: application/json
+
+{
+  "title": "My First Post",
+  "content": "This is the content of my first blog post.",
+  "author": "Pratik Sharma",
+  "category": "General"
+}
+
+### Invalid create (expect 400)
+POST {{baseUrl}}/posts
+Content-Type: application/json
+
+{ "title": "Hi" }
+
+### Get one post (replace the id)
+GET {{baseUrl}}/posts/a1b2c3d4-0001-4000-8000-000000000001
+
+### Update a post
+PUT {{baseUrl}}/posts/a1b2c3d4-0001-4000-8000-000000000001
+Content-Type: application/json
+
+{ "title": "Getting Started with Express.js" }
+
+### Delete a post
+DELETE {{baseUrl}}/posts/a1b2c3d4-0001-4000-8000-000000000001
+
+### Not found (expect 404)
+GET {{baseUrl}}/posts/does-not-exist
